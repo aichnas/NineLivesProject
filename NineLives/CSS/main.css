@@ -1,0 +1,255 @@
+
+/* main header starts here*/
+
+.blockh{
+    height: 180px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0%;
+}
+
+#introText{
+    padding-left: 10%;
+    font-size: xx-large;
+    font-family: "Delicious Handrawn";
+}
+
+.link{
+    color: #8f227c;
+    padding: 2%;
+    margin: 2% 0 3% 0;
+}
+
+.link:hover {
+    color: white;
+    background-color:#8f227c;
+    padding-top: 0%;
+}    
+
+#catPlaying{
+    padding: 0 5% 0 2%;
+}
+
+/* main header ends here*/
+/* body starts here*/
+
+.catArt{
+    display: flex;
+    text-align: center;
+    background-color: #a9d99a;
+    width: 92vw;
+    height: fit-content;
+    padding: 1% 2% 1% 1%;
+    margin: 0 auto 0 auto;
+}
+
+
+.catArt p{
+    background-color: #daffcf;
+    height: fit-content;
+    width:85vw;
+    margin: 1%;
+    padding: 1%;
+}
+
+.camera{
+    align-items: left;
+    margin-top: 25%;
+    flex: auto;
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
+}
+.ruthImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ruthImg img{
+    padding: 2%;
+    flex: 1;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.catArt b{
+    font-family: "Delicious Handrawn";
+    font-size: xx-large;
+}
+
+.linkRuth{
+    color: #8f227c;
+    margin: 2% 0 3% 0;
+}
+
+.linkRuth:hover {
+    color: white;
+    background-color:#8f227c;
+} 
+
+.homeCats{ 
+    display: flex;
+    text-align: center;
+    background-color: #a9d99a;
+    width: 92vw;
+    padding: 1%;
+    margin: 4% auto;
+}
+
+.homeCats p{
+    background-color:#daffcf;
+    margin: 1%;
+    padding: 1%;
+}
+
+.homeCats img{
+    align-items: left;
+}
+
+.clapperboard {
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
+}
+
+.controller {
+    --webkit-filter: drop-shadow(3px 3px 1px #5a5a5a);
+    filter: drop-shadow(3px 3px 5px #5a5a5a);
+}
+
+
+h1.a {font-family: "Audiowide", sans-serif;}
+h1.b {font-family: "Sofia", sans-serif;}
+h1.c {font-family: "Trirong", serif;}
+
+/* body ends here*/
+/* footer starts here*/
+footer{
+    background-color:#d99ace;
+    margin-top: 30px;
+    padding: 50px;
+    
+
+}
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 15px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) ;
+    transition: all 0.3s ease-out;
+
+}
+
+.wrapper .button:hover{
+    width: 200px;
+    background-color: #8f227c;
+}
+.wrapper .button .icons{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.wrapper .button .icons img{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.btn{
+    height: 60px;
+    width: 200px;
+    background-color: #fffeff;
+    border-radius: 50px;
+    margin-left: 190px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5) ;
+
+}
+.btn:hover{
+width: 200px;
+background-color:#8f227c;
+}
+
+.btn .youtube{
+    width: 100px;
+    
+}
+
+.attribution {
+    position: relative;
+    text-align: right;
+    bottom: 30px;
+    font-size: small;
+    
+}
+.attribution-text{
+    font-family: "Trirong", serif;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.contact{
+    font-style: "Trirong", serif ;
+    font-size: 20px;
+}
+/* footer ends here*/
+/* javascript quiz starts here*/
+#after_submit {
+    visibility: hidden;
+}
+
+/* footer ends here*/
+/* javascript quiz starts here*/
+#after_submit {
+    visibility: hidden;
+}
+
+/* Mobile screen respnsiveness for Footer */
+@media (max-width: 900px) {
+    .footer {
+        flex-direction: column-reverse;
+        /* display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px; */
+    }
+
+    .wrapper {
+        margin-left: 80px;
+        margin-right: -100px;
+
+    }
+
+    .button2 {
+         margin-left: -20px;
+         padding-top: 112px;
+    }
+    
+    .attribution {
+        text-align: center;
+        margin-bottom: 8px;
+        margin-left: 70px;
+        padding-top: 78px;
+    }   
+}
+
+
+
+

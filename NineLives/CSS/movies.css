@@ -1,0 +1,153 @@
+.blockm{
+    height:120px;
+}
+
+.filmGrabs{
+    padding: 5%;
+    display: flex;
+    position: relative;
+}
+
+
+.filmCats{
+    width: 27vw;
+    height: 20vw;
+}
+
+a span{
+        display: none;
+        position: absolute;
+        bottom: 8%;
+        width: 27vw;
+        padding: 0.5%;
+        background-color: #d99ace;
+      }
+      
+      a:hover span {
+        display: block
+      }
+
+#owlKitty{
+    padding: 0 3%;
+}
+
+.linkMovie{
+    color: #8f227c;
+    margin: 2% 0 3% 0;
+}
+
+.linkMovie:hover {
+    color: white;
+    background-color:#8f227c;
+} 
+
+.Meowvies{
+    text-align: right;  
+    display: flex;
+    text-align: center;
+    background-color: #a9d99a;
+    width: 80%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+.Meowvies p{
+    background-color:#daffcf;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+}
+
+.movieText{
+    text-align: left;  
+    display: flex;
+    text-align: left;
+    background-color: #a9d99a;
+    width: 80%;
+    padding: 1%;
+    margin: 0 0 5% 10%;
+}
+
+.movieText p{
+    background-color:#daffcf;
+    margin: 2%;
+    padding: 1%;
+    width: 100%;
+}
+
+.movieInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.movieColumn{
+    padding-right: 0;
+}
+
+.catVideo{
+    padding-left: 0%;
+    padding-right: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#Puss{
+    padding-bottom: 5%;
+}
+
+.gameGrabs{
+    padding-bottom: 5%;
+    display: flex;
+    position: relative;
+}
+
+.gameCats{
+    width: 27vw;
+    height: 20.5vw;
+    margin-right: 4vw;
+}
+
+
+#stray{
+    padding: 0 4%;
+}
+
+.gameVideo{
+    padding-left: 5%;
+    margin-left: 5%;
+}
+
+#imgAC{
+    display: flex;
+    padding-top: 5%;
+}
+
+.gameInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gameBox{
+    padding-left: 6vw;
+}
+
+.gameText{
+    text-align: left;  
+    display: flex;
+    text-align: left;
+    background-color: #a9d99a;
+    width: 80%;
+    padding: 2%;
+    margin: 0 6% 5% 0;
+}
+
+.gameText p{
+    background-color:#daffcf;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+}
